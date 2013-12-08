@@ -1,0 +1,147 @@
+
+table.numbers-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul.nav {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #428bca;
+}
+
+td.number-button {
+	width: 150px;
+	height: 150px;
+	font-size: 300%;
+	border-color: gray;	
+	border-style: solid;
+}
+
+table.correct {
+	border-color: green;
+}
+
+table.wrong {
+	border-color: red;
+}
+
+/* cells in top row have no top border */
+tr:first-child > td.number-button {
+	border-top-style: none;
+}
+
+/* cells in bottom row have no bottom border */
+tr:last-child > td.number-button {
+	border-bottom-style: none;
+}
+
+/* cells in left column have no left border */
+tr > td:first-child.number-button {
+	border-left-style: none;
+}
+
+/* cells in right column have no right border */
+tr > td:last-child.number-button {
+	border-right-style: none;
+}
+
+/* top left cell has rounded corner */
+tr:first-child > td:first-child.number-button {
+	border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+}
+
+/* top right cell has rounded corner */
+tr:first-child > td:last-child.number-button {
+	border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+}
+
+/* bottom left cell has rounded corner */
+tr:last-child > td:first-child.number-button {
+	border-bottom-left-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+}
+
+/* bottom right cell has rounded corner */
+tr:last-child > td:last-child.number-button {
+	border-bottom-right-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;
+}
+
+td.red {
+	color: black;
+	background-color: Crimson;
+}
+
+td.yellow {
+	color: black;
+	background-color: yellow;
+}
+
+td.white {
+	color: black;
+	background-color: white;
+}
+
+td.black {
+	color: white;
+	background-color: black;
+}
+
+td.blue {
+	color: white;
+	background-color: blue;
+}
+
+td.orange {
+	color: black;
+	background-color: DarkOrange;
+}
+
+td.red {
+	color: black;
+	background-color: red;
+}
+
+td.purple {
+	color: white;
+	background-color: purple;
+}
+
+td.green {
+	color: white;
+	background-color: green;
+}
+
+td.gray {
+	color: white;
+	background-color: gray;
+}
+
+td.brown {
+	color: white;
+	background-color: SaddleBrown;
+}
+
+td.pink {
+	color: black;
+	background-color: Pink;
+}
+
+a.active {
+	background-color: LightGray;
+}
+
+div.result {
+	float:left;
+}
+
+div.result.correct {
+	color:green;
+}
+
+div.result.wrong {
+	color:red;
+}
