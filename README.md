@@ -8,6 +8,13 @@ I built this game for two reasons:
 
 I sort of succeeded on both counts.
 
+You can see the game up and running here:
+
+http://numbers-game.s3-website-us-east-1.amazonaws.com/
+
+although the sound is a little bit laggy, since it's getting served out of S3.
+
+
 Caveat
 ------
 
